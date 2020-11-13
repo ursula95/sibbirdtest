@@ -6,7 +6,7 @@ function run () {
 }
 
 function homePage () {
-    
+
     const main = document.getElementById('main');
     startButtonn = document.createElement('div');
     practiceButton = document.createElement('div');
@@ -15,5 +15,7 @@ function homePage () {
     startButtonn.innerText = 'Начать викторину';
     practiceButton.innerText = 'Тренировка';
 
+    main.append(startButtonn);
+    main.append(practiceButton);
 }
 
