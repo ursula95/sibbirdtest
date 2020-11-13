@@ -15,7 +15,7 @@ function homePage () {
     startButtonn.innerText = 'Начать викторину';
     practiceButton.innerText = 'Тренировка';
 
-    main.append(startButtonn);
+    main.append(startButton);
     main.append(practiceButton);
 }
 
