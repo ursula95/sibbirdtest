@@ -2,14 +2,18 @@ let startButtonn;
 let practiceButton;
 
 function run () {
-   
+   homePage();
 }
 
-const main = document.getElementById('main');
-startButtonn = document.createElement('div');
-practiceButton = document.createElement('div');
-startButton.classList.add('startButton');
-practiceButton.classList.add('startButton');
-startButtonn.innerText = 'Начать викторину';
-practiceButton.innerText = 'Тренировка';
+function homePage () {
+    
+    const main = document.getElementById('main');
+    startButtonn = document.createElement('div');
+    practiceButton = document.createElement('div');
+    startButton.classList.add('startButton');
+    practiceButton.classList.add('startButton');
+    startButtonn.innerText = 'Начать викторину';
+    practiceButton.innerText = 'Тренировка';
+
+}
 
