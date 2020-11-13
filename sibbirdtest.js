@@ -1,4 +1,4 @@
-let startButtonn;
+let startButton;
 let practiceButton;
 
 function run () {
