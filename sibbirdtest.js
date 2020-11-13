@@ -8,11 +8,11 @@ function run () {
 function homePage () {
 
     const main = document.getElementById('main');
-    startButtonn = document.createElement('div');
+    startButton = document.createElement('div');
     practiceButton = document.createElement('div');
     startButton.classList.add('startButton');
     practiceButton.classList.add('startButton');
-    startButtonn.innerText = 'Начать викторину';
+    startButton.innerText = 'Начать викторину';
     practiceButton.innerText = 'Тренировка';
 
     main.append(startButton);
