@@ -19,3 +19,4 @@ function homePage () {
     main.append(practiceButton);
 }
 
+run();
