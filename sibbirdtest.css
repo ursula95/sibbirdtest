@@ -3,8 +3,10 @@ body {
 }
 
 .startButton {
+  display: inline-block;
   background-color: brown;
   color: white;
   height: 30px;
   width: 80px;
+  padding: 40px;
 }
